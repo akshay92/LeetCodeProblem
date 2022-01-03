@@ -1,6 +1,6 @@
 package com.leetcode.problem.solution.easy;
 
-import com.leetcode.problem.solution.common.BinaryTree;
+import com.leetcode.problem.solution.common.BinaryTreeTwoRoot;
 import com.leetcode.problem.solution.common.TreeNode;
 
 public class SameTreeSolution {
@@ -8,7 +8,7 @@ public class SameTreeSolution {
     public static void main(String[] args) {
 
         // Test Case 1 Both tree are same
-        BinaryTree tree = new BinaryTree();
+        BinaryTreeTwoRoot tree = new BinaryTreeTwoRoot();
 
         tree.root1 = new TreeNode(1);
         tree.root1.left = new TreeNode(2);
@@ -29,7 +29,7 @@ public class SameTreeSolution {
 
 
         // Test Case 2 Both tree are not same
-        BinaryTree tree2 = new BinaryTree();
+        BinaryTreeTwoRoot tree2 = new BinaryTreeTwoRoot();
 
         tree2.root1 = new TreeNode(1);
         tree2.root1.left = new TreeNode(2);
@@ -49,7 +49,7 @@ public class SameTreeSolution {
             System.out.println("Trees are not identical");
 
         // Test Case 3 Root1 null
-        BinaryTree tree3 = new BinaryTree();
+        BinaryTreeTwoRoot tree3 = new BinaryTreeTwoRoot();
 
         tree3.root2 = new TreeNode(1);
         tree3.root2.left = new TreeNode(2);
@@ -63,7 +63,7 @@ public class SameTreeSolution {
             System.out.println("Trees are not identical");
 
         // Test Case 4 Root2 null
-        BinaryTree tree4 = new BinaryTree();
+        BinaryTreeTwoRoot tree4 = new BinaryTreeTwoRoot();
 
         tree4.root2 = new TreeNode(1);
         tree4.root2.left = new TreeNode(2);
